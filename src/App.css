@@ -1,0 +1,26 @@
+.card {
+    border: 0.2rem solid grey;
+    border-radius: 2rem;
+    padding: 2rem;
+    text-align: center;
+    background: whitesmoke;
+    transition: all 0.1s ease-in-out;
+    width: 450px;
+}
+
+.card:hover {
+    border-radius: 4rem;
+    box-shadow: 0.25rem 0.25rem black;
+    translate: -0.25rem -0.25rem;
+}
+
+.card > img {
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+}
+
+.card:hover >img {
+}
+.card > h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
